@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    font-family: sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.resultado {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 2vw;
+}
+.num-aprobados {
+    color: #0f0;
+}
+
+.num-desaprobados{
+    color: #f00;
+}
+.getInfo {
+    font-size: 3vw;
+    cursor: pointer;
+}
